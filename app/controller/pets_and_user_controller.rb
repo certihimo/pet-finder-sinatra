@@ -13,13 +13,14 @@ class MainController < Sinatra::Base
     all_users.to_json
   end
   
-  
+
    #returns all the pets for a specific user
    get "/pets/:username" do
     single_user = User.find_by(username:params[:username])
     single_user.pets.to_json 
   end
    
+  
     #Searches through the list of all the pets and returns the pets that match
     post '/pets/search_all' do
       search_request = JSON.parse(request.body.read)
