@@ -6,6 +6,7 @@ class MainController < Sinatra::Base
     enable :cross_origin
   end
 
+  
     # returns all the users
   get "/" do 
     all_users = User.all
