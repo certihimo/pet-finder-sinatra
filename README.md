@@ -1,1 +1,2 @@
-# pet-finder-sinatra
+# Philoxenia
+A Pet-Finder application
