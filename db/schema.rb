@@ -19,7 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_28_142957) do
     t.integer "user_id"
   end
 
-  
+
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
@@ -27,4 +27,5 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_28_142957) do
     t.integer "phone"
   end
 
+  
 end
