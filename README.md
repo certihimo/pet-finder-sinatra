@@ -6,7 +6,7 @@ To use Pet Finder Sinatra, first clone this repository:
 
 shell
 Copy code
-$ git clone https://github.com/your_username/pet-finder-sinatra.git
+$ git clone https://github.com/certihimo/pet-finder-sinatra.git
 Then, install the required gems:
 
 ruby
